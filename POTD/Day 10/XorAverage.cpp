@@ -10,6 +10,7 @@ It can be proven that there exists a sequence of integers that satisfies all the
 Approach:- 
 if the n is odd then simply just return n times 1
 if the n is even then first return 1 3 then return n-2 times 2
+Time Complexity : O()
 */
 
 #include <iostream>
