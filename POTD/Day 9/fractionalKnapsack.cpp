@@ -1,3 +1,7 @@
+/*
+Given weights and values of N items,
+we need to put these items in a knapsack of capacity W to get the maximum total value in the knapsack.
+*/
 class Solution
 {
     static bool comp (Item &a,Item &b){
@@ -7,7 +11,6 @@ class Solution
         return false;
     }
     public:
-    //Function to get the maximum total value in the knapsack.
     double fractionalKnapsack(int W, Item arr[], int n)
     {
         double inc=0.0;
@@ -27,6 +30,5 @@ class Solution
             }
         }
         return inc;
-    }
-        
+    }      
 };

@@ -1,14 +1,18 @@
+/* basically the idea is to select an element(pivot) and put it into its right place
+    then make its right and left partitions in a way such that the left side contains
+    elements less than the pivot and right side greater than the pivot
+*/
 class QuickSort{
     void quickSort(int arr[], int low, int high)
     {
-        // code here
         if(low>=high){
             return;
         }
         int p=partition(arr,low,high);
         
-        quickSort(arr,low,p-1);
-        quickSort(arr,p+1,high);
+        quickSort(arr,low,p-1); // left partition
+
+        quickSort(arr,p+1,high); // right partition
     }
     
     public:

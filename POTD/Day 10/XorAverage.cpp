@@ -1,3 +1,17 @@
+/*
+You are given an integer 𝑛. Find a sequence of 𝑛 integers 𝑎1,𝑎2,…,𝑎𝑛 such that 1≤𝑎𝑖≤109 for all 𝑖 and
+𝑎1⊕𝑎2⊕⋯⊕𝑎𝑛=𝑎1+𝑎2+⋯+𝑎𝑛/𝑛,
+where ⊕
+
+represents the bitwise XOR.
+
+It can be proven that there exists a sequence of integers that satisfies all the conditions above.
+
+Approach:- 
+if the n is odd then simply just return n times 1
+if the n is even then first return 1 3 then return n-2 times 2
+*/
+
 #include <iostream>
 using namespace std;
 
