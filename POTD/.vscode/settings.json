@@ -19,6 +19,8 @@
         "tuple": "cpp",
         "type_traits": "cpp",
         "string": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp"
     }
 }
