@@ -41,7 +41,3 @@ public:
         return ptr->next;
     }
 };
-
-/*
-
-*/
